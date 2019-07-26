@@ -20,16 +20,18 @@
             "url": "https://github.com/markgalante"
         }
     }, 
-    "education": {
-        "schooling":{
-            "school":"Herzlia", 
+    "education": [
+        {
+            "institution":"Herzlia", 
+            "qualification":"National Senior Certificate", 
             "gradYear": "2011"
         },
-        "university":{
-            "uni": "University of Stellenbosch", 
-            "year": "2016"
+        {
+            "institution": "University of Stellenbosch", 
+            "qualification":"BSc. Physiotherapy (Hons)", 
+            "gradYear": "2016"
         }
-    }, 
+    ], 
     "work":[
         {
             "employer": "Western Cape Government", 
