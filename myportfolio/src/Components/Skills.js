@@ -1,9 +1,15 @@
 import React from 'react'; 
 
 const Skills = props =>{
-    const getSkills = props.skillsData[0].keywords
+    const getSkills = props.skillsData.keywords.map(function (item, index){
+        return (<li key={index}><span>{item}</span></li>)
+    });
+
     return(
-        <p>Test: Skills goes here</p>
+        <section>
+            <h2><i></i>Skills</h2>
+            <ul>{getSkills}</ul>
+        </section>
     )
-}
+};
 export default Skills; 
