@@ -83,7 +83,7 @@
     "skills":{
         "title": "front-end developer", 
         "level": "junior/beginner", 
-        "skills":[
+        "keywords":[
             "HTML", 
             "CSS", 
             "JavaScript", 
