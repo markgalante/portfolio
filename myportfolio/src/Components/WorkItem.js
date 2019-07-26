@@ -22,8 +22,8 @@ const WorkItem = props => {
             <h3>{props.WorkItem.position}, <span>{props.WorkItem.employer}</span></h3>
             <p>{getWorkDates()}</p>
             <p>{props.workItemData.myrole}</p>
+            <ul>{getHighlights}</ul>
         </div>
     )
-
-
 }
+export default WorkItem; 
