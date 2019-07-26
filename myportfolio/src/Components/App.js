@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+//import './App.css';
 import About from './About'; 
 import Education from './Education';
 import Work from './Work'; 
