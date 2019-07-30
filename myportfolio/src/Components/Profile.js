@@ -1,10 +1,11 @@
 import React from 'react'; 
+import MarkGalante from './markgalante.jpg'; 
 
 const Profile = props =>{
     const profileObj = props.profileData; 
     return (
         <div>
-            <div className="profileImg"><img className="img-circle center-block" alt="Profile Picture" img={}/></div>
+            <div className="profileImg"><img className="img-circle center-block" alt="Mark Galante" img={MarkGalante}/></div>
             <div className="text-center">{profileObj.name}</div>
             <div className="divider"></div>
             <ul className="list-unstyled contact-links text-center">
@@ -16,3 +17,5 @@ const Profile = props =>{
         </div>
     )
 };
+
+export default Profile; 
