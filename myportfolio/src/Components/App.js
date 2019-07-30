@@ -1,4 +1,4 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
 //import './App.css';
 import About from './About'; 
 import Education from './Education';
@@ -26,7 +26,7 @@ const App = props => {
 }
 
 /*App.propTypes = {
-  jsonObj: PropTypes.object.isRequired
+  jsonObj: React.PropTypes.object
 }*/
 
 export default App;
