@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Components/App'; 
 import * as serviceWorker from './serviceWorker';
-import json from './resume.json'; 
+const json = require(JSON.parse('./resume.json'));
 
 ReactDOM.render(<App jsonObj={json}/>, document.getElementById('root'));
 
