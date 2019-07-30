@@ -25,8 +25,8 @@ const App = props => {
 
 }
 
-App.propTypes = {
+/*App.propTypes = {
   jsonObj: PropTypes.object.isRequired
-}
+}*/
 
 export default App;
