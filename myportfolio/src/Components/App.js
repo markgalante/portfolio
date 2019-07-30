@@ -1,4 +1,4 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
 //import './App.css';
 import About from './About'; 
 import Education from './Education';
@@ -16,10 +16,10 @@ const App = props => {
   return(
     <div>
       <Profile profileData={profileData}/> 
-      <About /> 
-      <Work /> 
-      <Skills /> 
-      <Education /> 
+      <About aboutData={aboutData}/> 
+      <Work workData={workData}/> 
+      <Skills skillsData={skillsData}/> 
+      <Education educationData={educationData}/> 
     </div>
   )
 
