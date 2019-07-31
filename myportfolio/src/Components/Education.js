@@ -13,7 +13,7 @@ const Education = props =>{
 
     return(
         <section className="education">
-            <h2 className="text-uppercase"><i></i>Education</h2>
+            <h2 className="text-uppercase"><i className="fa fa-lg fa-mortar-board"></i>Education</h2>
             {getEducation}
         </section>
     )   
