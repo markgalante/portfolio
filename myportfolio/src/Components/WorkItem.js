@@ -18,9 +18,9 @@ const WorkItem = props => {
         return (<li key={index}>{item}</li>)
     }); 
     return(
-        <div>
+        <div className="workItem">
             <h3>{props.workItemData.position}, <span>{props.workItemData.employer}</span></h3>
-            <p>{getWorkDates()}</p>
+            <p className="workDates">{getWorkDates()}</p>
             <p>{props.workItemData.myrole}</p>
             <ul>{getHighlights}</ul>
         </div>
