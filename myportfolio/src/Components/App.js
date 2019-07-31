@@ -14,12 +14,25 @@ const App = props => {
   const educationData = props.jsonObj.education; 
 
   return(
-    <div>
-      <Profile profileData={profileData}/> 
-      <About aboutData={aboutData}/> 
-      <Work workData={workData}/> 
-      <Skills skillsData={skillsData}/> 
-      <Education educationData={educationData}/> 
+    <div className="container">
+      <div className="row">
+        
+        <aside className="col-md-4">
+          <div className="inner">
+          <Profile profileData={profileData}/>
+          </div>
+        </aside>
+         
+        <main className="col-md-8">
+          <div className="inner">
+            <About aboutData={aboutData}/> 
+            <Work workData={workData}/> 
+            <Skills skillsData={skillsData}/> 
+            <Education educationData={educationData}/>
+          </div>
+        </main>
+      
+      </div> 
     </div>
   )
 
