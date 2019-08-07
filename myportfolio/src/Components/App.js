@@ -19,7 +19,7 @@ const App = props => {
         
         <aside className="col-md-4">
           <div className="inner">
-          <Profile profileData={profileData}/>
+            <Profile profileData={profileData}/>
           </div>
         </aside>
          
