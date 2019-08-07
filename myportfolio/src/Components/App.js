@@ -8,7 +8,7 @@ import Profile from './Profile';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
  
-library.add(fas)
+library.add(fas); 
 
 const App = props => { 
   const profileData = props.jsonObj.basics; 

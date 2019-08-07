@@ -1,4 +1,5 @@
 import React from 'react'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 
 const Education = props =>{
     const getEducation = props.educationData.map(function(item, index){
@@ -13,7 +14,7 @@ const Education = props =>{
 
     return(
         <section className="education">
-            <h2 className="text-uppercase"><i className="fa fa-lg fa-mortar-board"></i>Education</h2>
+            <h2 className="text-uppercase"><FontAwesomeIcon icon={['fas', 'graduation-cap']} /> Education</h2>
             {getEducation}
         </section>
     )   
