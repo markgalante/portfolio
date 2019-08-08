@@ -12,7 +12,7 @@ const Work = props => {
     }
     return(
         <section>
-            <h2><FontAwesomeIcon icon={['fas', 'briefcase']} /> Work Experience</h2>
+            <h2><FontAwesomeIcon icon={['fas', 'briefcase']}/> Work Experience</h2>
             {getWorkExperience()}
         </section>
     ); 
