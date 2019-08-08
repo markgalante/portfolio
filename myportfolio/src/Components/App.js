@@ -5,8 +5,12 @@ import Education from './Education';
 import Work from './Work'; 
 import Skills from './Skills'; 
 import Profile from './Profile'; 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row'; 
+import Col from 'react-bootstrap/Col';  
+import { library } from '@fortawesome/fontawesome-svg-core'; 
+import { fas } from '@fortawesome/free-solid-svg-icons'; 
  
 library.add(fas); 
 
@@ -18,26 +22,26 @@ const App = props => {
   const educationData = props.jsonObj.education; 
 
   return(
-    <div className="container">
-      <div className="row">
+    <Container>
+      <Row>
         
-        <aside className="col-md-4">
+        <Col md={4} className="profileOnApp">
           <div className="inner">
             <Profile profileData={profileData}/>
           </div>
-        </aside>
+        </Col>
          
-        <main className="col-md-8">
+        <Col md={8} className="infoOnApp">
           <div className="inner">
             <About aboutData={aboutData}/> 
             <Work workData={workData}/> 
             <Skills skillsData={skillsData}/> 
             <Education educationData={educationData}/>
           </div>
-        </main>
+        </Col>
       
-      </div> 
-    </div>
+      </Row> 
+    </Container>
   )
 
 };
