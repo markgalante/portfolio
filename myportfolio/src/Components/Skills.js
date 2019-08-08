@@ -8,7 +8,7 @@ const Skills = props =>{
 
     return(
         <section className="skills">
-            <h2 className="text-uppercase"><FontAwesomeIcon icon={['fas', 'code']} /> Skills</h2>
+            <h2><FontAwesomeIcon icon={['fas', 'code']} /> Skills</h2>
             <ul className="skills-list list-inline">{getSkills}</ul>
         </section>
     ) 

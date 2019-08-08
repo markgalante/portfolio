@@ -14,7 +14,7 @@ const Education = props =>{
 
     return(
         <section className="education">
-            <h2 className="text-uppercase"><FontAwesomeIcon icon={['fas', 'graduation-cap']} /> Education</h2>
+            <h2><FontAwesomeIcon icon={['fas', 'graduation-cap']} /> Education</h2>
             {getEducation}
         </section>
     )   
