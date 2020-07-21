@@ -1,5 +1,5 @@
 import React from 'react';
-//import './App.css';
+import '../App.css';
 import About from './About'; 
 import Education from './Education';
 import Work from './Work'; 
@@ -10,9 +10,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row'; 
 import Col from 'react-bootstrap/Col';  
 import { library } from '@fortawesome/fontawesome-svg-core'; 
-import { fas } from '@fortawesome/free-solid-svg-icons'; 
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
  
-library.add(fas); 
+library.add(fas);
+library.add(fab);  
 
 const App = () => {  
 
@@ -20,13 +22,13 @@ const App = () => {
     <Container>
       <Row>
         
-        <Col md={4} className="profileOnApp">
+        <Col lg={4} className="profileOnApp positioned-fixed">
           <div className="inner">
             <Profile />
           </div>
         </Col>
          
-        <Col md={8} className="infoOnApp">
+        <Col lg={8} className="infoOnApp">
           <div className="inner">
             <About /> 
             <Work /> 
