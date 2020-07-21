@@ -18,7 +18,27 @@ const BasicInformationContext = createContext(
             "city": "Cape Town",
             "province": "Western Cape",
             "country": "South Africa"
-        }
+        },
+        "social-media": [
+            {
+                "font-awesome-icon": "linkedin",
+                "font-awesome-class": "fab", 
+                "link": "https://www.linkedin.com/in/mark-galante-65137946/", 
+                "site": "LinkedIn"
+            },
+            {
+                "font-awesome-icon": "facebook",
+                "font-awesome-class": "fab", 
+                "link": "https://www.facebook.com/mark.v.j.galante/",
+                "site": "Facebook"
+            },
+            {
+                "font-awesome-icon": "github",
+                "font-awesome-class": "fab", 
+                "link": "https://github.com/markgalante",
+                "site": "GitHub"
+            }
+        ]
     }
 ); 
 
