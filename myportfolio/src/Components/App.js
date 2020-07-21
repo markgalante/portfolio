@@ -1,43 +1,43 @@
 import React from 'react';
 import '../App.css';
-import About from './About'; 
+import About from './About';
 import Education from './Education';
-import Work from './Work'; 
-import Skills from './Skills'; 
-import Profile from './Profile'; 
+import Work from './Work';
+import Skills from './Skills';
+import Profile from './Profile';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row'; 
-import Col from 'react-bootstrap/Col';  
-import { library } from '@fortawesome/fontawesome-svg-core'; 
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
- 
+
 library.add(fas);
-library.add(fab);  
+library.add(fab);
 
-const App = () => {  
+const App = () => {
 
-  return(
+  return (
     <Container>
       <Row>
-        
+
         <Col lg={4} className="profileOnApp positioned-fixed">
           <div className="inner">
             <Profile />
           </div>
         </Col>
-         
+
         <Col lg={8} className="infoOnApp">
           <div className="inner">
-            <About /> 
-            <Work /> 
-            <Skills /> 
+            <About />
+            <Work />
+            <Skills />
             <Education />
           </div>
         </Col>
-      
-      </Row> 
+
+      </Row>
     </Container>
   )
 
