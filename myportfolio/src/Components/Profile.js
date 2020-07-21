@@ -17,7 +17,7 @@ const Profile = () => {
             <div className="divider"></div>
             <ul className="list-unstyled contact-links">
                 <li><FontAwesomeIcon icon={['fas', 'location-arrow']} /> {profile.location.city}, {profile.location.country}</li>
-                <li><FontAwesomeIcon icon={['fas', 'envelope']} /> <a href={`mailto:${profile.contact.email}`}>{profile.contact.email}</a></li>
+                <li><FontAwesomeIcon icon={['fas', 'envelope']} /> <a href={`mailto:${profile.contact.email}`} className="anchor-tag-black">{profile.contact.email}</a></li>
             </ul>
             <div className="divider"></div>
             <div>
