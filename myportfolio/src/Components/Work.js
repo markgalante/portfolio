@@ -1,12 +1,15 @@
-import React from 'react'; 
+import React, { useContext } from 'react'; 
 import WorkItem from './WorkItem'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import WorkContext from '../Context/work.context'; 
 
-const Work = props => {
+const Work = () => {
+    const workData = useContext(WorkContext); 
+    console.log(workData); 
     const getWorkExperience = () => {
         const workItems = [];
-        props.workData.forEach((val, index) =>{
-            workItems.push(<WorkItem key={index} workItemData={val}/>)
+        workData.workHistory.forEach((val, index) =>{
+            workItems.push(<WorkItem key={index} workData={val}/>)
         }) 
         return workItems; 
     }

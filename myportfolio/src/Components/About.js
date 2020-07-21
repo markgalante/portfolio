@@ -1,12 +1,14 @@
-import React from 'react'; 
+import React, { useContext } from 'react'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import AboutContext from '../Context/about.context';
 
-const About = props =>{
+const About = () =>{
+    const about = useContext(AboutContext); 
     return(
         <section>
             <h2><FontAwesomeIcon icon={['fas', 'user']} /> About</h2>
             <div className="about">
-                {props.aboutData}
+                {about.aboutMe}
             </div>
         </section>
     );

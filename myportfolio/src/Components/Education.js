@@ -1,8 +1,10 @@
-import React from 'react'; 
+import React, { useContext } from 'react'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import EducationContext from '../Context/education.context'; 
 
-const Education = props =>{
-    const getEducation = props.educationData.map(function(item, index){
+const Education = () =>{
+    const education = useContext(EducationContext); 
+    const getEducation = education.education.map(function(item, index){
         return(
             <div key={index}>
                 <h3>{item.institution}</h3>

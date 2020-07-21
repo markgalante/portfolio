@@ -1,8 +1,10 @@
-import React from 'react'; 
+import React, { useContext } from 'react'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import SkillsContext from '../Context/skills.context';
 
-const Skills = props =>{
-    const getSkills = props.skillsData.keywords.map(function (item, index){
+const Skills = () =>{
+    const skills = useContext(SkillsContext); 
+    const getSkills = skills.skills.keywords.map(function (item, index){
         return (<li key={index}><span className="label label-success">{item}</span></li>)
     });
 

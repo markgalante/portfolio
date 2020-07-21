@@ -14,12 +14,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
  
 library.add(fas); 
 
-const App = props => { 
-  const profileData = props.jsonObj.basics; 
-  const aboutData = profileData.aboutMe;  
-  const workData = props.jsonObj.work; 
-  const skillsData = props.jsonObj.skills; 
-  const educationData = props.jsonObj.education; 
+const App = () => {  
 
   return(
     <Container>
@@ -27,16 +22,16 @@ const App = props => {
         
         <Col md={4} className="profileOnApp">
           <div className="inner">
-            <Profile profileData={profileData}/>
+            <Profile />
           </div>
         </Col>
          
         <Col md={8} className="infoOnApp">
           <div className="inner">
-            <About aboutData={aboutData}/> 
-            <Work workData={workData}/> 
-            <Skills skillsData={skillsData}/> 
-            <Education educationData={educationData}/>
+            <About /> 
+            <Work /> 
+            <Skills /> 
+            <Education />
           </div>
         </Col>
       
