@@ -5,6 +5,7 @@ import Education from './Education';
 import Work from './Work';
 import Skills from './Skills';
 import Profile from './Profile';
+import Projects from './Projects'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -34,6 +35,7 @@ const App = () => {
             <Work />
             <Skills />
             <Education />
+            <Projects /> 
           </div>
         </Col>
 
