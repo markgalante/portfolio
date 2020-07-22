@@ -32,10 +32,10 @@ const App = () => {
 
         <Col lg={8} className="infoOnApp">
           <div className="inner">
-            <Work />
-            <Skills />
-            <Education />
             <Projects /> 
+            <Skills />
+            <Work />
+            <Education />
           </div>
         </Col>
 
