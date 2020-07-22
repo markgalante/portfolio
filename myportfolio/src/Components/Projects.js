@@ -12,6 +12,7 @@ const Projects = () => {
     return (
         <div>
             <h2><FontAwesomeIcon icon={["fas", "project-diagram"]} /> Projects</h2>
+            <div className="divider"></div>
             <ul className="project-list">
                 {projectList}
             </ul>
