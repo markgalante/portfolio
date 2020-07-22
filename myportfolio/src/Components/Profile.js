@@ -21,8 +21,9 @@ const Profile = () => {
             </ul>
             <div className="divider"></div>
             <div>
+                <SocialMedia />
             </div>
-            <SocialMedia />
+            <div className="divider"></div>
         </div>
     )
 };

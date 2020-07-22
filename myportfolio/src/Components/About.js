@@ -6,9 +6,9 @@ const About = () =>{
     const about = useContext(AboutContext); 
     return(
         <section>
-            <h2><FontAwesomeIcon icon={['fas', 'user']} /> About</h2>
+            <h4><FontAwesomeIcon icon={['fas', 'user']} /> About</h4>
             <div className="about">
-                {about.aboutMe}
+                {about}
             </div>
         </section>
     );

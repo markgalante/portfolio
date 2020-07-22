@@ -26,12 +26,12 @@ const App = () => {
         <Col lg={4} className="profileOnApp positioned-fixed">
           <div className="inner">
             <Profile />
+            <About />
           </div>
         </Col>
 
         <Col lg={8} className="infoOnApp">
           <div className="inner">
-            <About />
             <Work />
             <Skills />
             <Education />
