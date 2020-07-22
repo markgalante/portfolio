@@ -19,7 +19,7 @@ const WorkItem = ({ workData }) => {
     });
     return (
         <div className="workItem">
-            <h3>{workData.position}, <span>{workData.employer}</span></h3>
+            <h4>{workData.position}, <span>{workData.employer}</span></h4>
             <p className="workDates">{getWorkDates()}</p>
             <p>{workData.myrole}</p>
             <ul>{getHighlights}</ul>
