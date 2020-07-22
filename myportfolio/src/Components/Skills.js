@@ -1,18 +1,23 @@
-import React, { useContext } from 'react'; 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import React, { useContext } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SkillsContext from '../Context/skills.context';
+import StackThumbnail from './StackThumbnail';
 
-const Skills = () =>{
-    const skills = useContext(SkillsContext); 
-    const getSkills = skills.skills.keywords.map(function (item, index){
-        return (<li key={index}><span className="label label-success">{item}</span></li>)
-    });
+const Skills = () => {
+    const skills = useContext(SkillsContext);
 
-    return(
-        <section className="skills">
+    const stackThumbnails = skills.stack.map((skill, index) => {
+        return (<StackThumbnail techImageURL={skill.techImageURL} techName={skill.techName} key={index} />)
+    })
+
+    return (
+        <div className="skills-page">
             <h2><FontAwesomeIcon icon={['fas', 'code']} /> Skills</h2>
-            <ul className="skills-list list-inline">{getSkills}</ul>
-        </section>
-    ) 
+            <div className="stack-thumbnails">
+                {stackThumbnails}
+            </div>
+        </div>
+
+    )
 };
 export default Skills; 
