@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
-const EducationContext = createContext({
-    "education": [
+const EducationContext = createContext(
+    [
         {
             "institution": "University of Stellenbosch",
             "qualification": "BSc. Physiotherapy (Hons)",
@@ -13,6 +13,6 @@ const EducationContext = createContext({
             "gradYear": "2011"
         }
     ]
-});
+);
 
 export default EducationContext; 

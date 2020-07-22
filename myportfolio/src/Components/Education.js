@@ -4,11 +4,11 @@ import EducationContext from '../Context/education.context';
 
 const Education = () =>{
     const education = useContext(EducationContext); 
-    const getEducation = education.education.map(function(item, index){
+    const getEducation = education.map(function(item, index){
         return(
             <div key={index}>
-                <h3>{item.institution}</h3>
-                <h4>{item.qualification}</h4>
+                <h4>{item.institution}</h4>
+                <h5>{item.qualification}</h5>
                 <p>{item.gradYear}</p>
             </div>
         )
