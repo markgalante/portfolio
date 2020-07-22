@@ -14,10 +14,11 @@ const Work = () => {
         return workItems; 
     }
     return(
-        <section>
+        <div className="work-experience">
             <h2><FontAwesomeIcon icon={['fas', 'briefcase']}/> Work Experience</h2>
+            <div className="divider"></div>
             {getWorkExperience()}
-        </section>
+        </div>
     ); 
 }; 
 export default Work; 
