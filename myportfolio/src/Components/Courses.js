@@ -5,7 +5,7 @@ import CoursesContext from '../Context/courses.context';
 const Courses = () => {
     const courses = useContext(CoursesContext);
     const coursesList = courses.map((course, index) => (
-        <p key={index}><a href={course.link}> {course.name}</a>, {course.provider}</p>
+        <p key={index}><a href={course.link} className="anchor-tag-black"> {course.name}</a>, {course.provider}</p>
     ))
 
     return (
