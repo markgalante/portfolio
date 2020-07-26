@@ -1,3 +1,11 @@
+h2{
+  font-size: 24px;
+}
+
+h4{
+  font-size: 15px;
+}
+
 .social-media-icons{
   display: flex;
   justify-content: space-evenly;
