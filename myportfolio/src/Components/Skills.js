@@ -12,7 +12,7 @@ const Skills = () => {
 
     return (
         <div className="skills-page">
-            <h2><FontAwesomeIcon icon={['fas', 'code']} /> Languages and Frameworks</h2>
+            <h2><FontAwesomeIcon icon={['fas', 'code']} /> Languages, Libraries and Frameworks</h2>
             <div className="divider"></div>
             <div className="stack-thumbnails">
                 {stackThumbnails}

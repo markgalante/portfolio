@@ -4,6 +4,7 @@ import About from './About';
 import Education from './Education';
 import Work from './Work';
 import Skills from './Skills';
+import Courses from './Courses'; 
 import Profile from './Profile';
 import Projects from './Projects'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -34,6 +35,7 @@ const App = () => {
           <div className="inner">
             <Projects /> 
             <Skills />
+            <Courses /> 
             <Work />
             <Education />
           </div>
