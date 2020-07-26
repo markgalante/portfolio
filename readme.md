@@ -1,6 +1,7 @@
 # Mark Vincent Joseph Galante
 ## Résumé
-
+> [View full résumé](https://markgalante.github.io/portfolio/)
+ 
 ![screenshot1](/resume-screenshot.png) 
 
 ### About
