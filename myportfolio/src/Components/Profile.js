@@ -10,10 +10,10 @@ const Profile = () => {
     const profile = useContext(BasicInformationContext);
     return (
         <div>
+            <div className="text-center profileName">{profile.firstName} {profile.middleName} {profile.surname}</div>
             <div className="profileImg">
                 <Image src={MarkGalante} roundedCircle />
             </div>
-            <div className="text-center profileName">{profile.firstName} {profile.middleName} {profile.surname}</div>
             <div className="divider"></div>
             <ul className="list-unstyled contact-links">
                 <li><FontAwesomeIcon icon={['fas', 'location-arrow']} /> {profile.location.city}, {profile.location.country}</li>
