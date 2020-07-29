@@ -10,7 +10,6 @@ const Profile = () => {
     const profile = useContext(BasicInformationContext);
     return (
         <div>
-            
             <div className="profileImg">
                 <Image src={MarkGalante} roundedCircle />
             </div>
