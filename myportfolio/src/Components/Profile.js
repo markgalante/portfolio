@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import MarkGalante from './markgalante.jpg';
+import MarkGalante from './markgalante.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'react-bootstrap/Image';
 import SocialMedia from './SocialMedia';
@@ -10,8 +10,8 @@ const Profile = () => {
     const profile = useContext(BasicInformationContext);
     return (
         <div>
-            <div className="profileImg">
-                <Image src={MarkGalante} roundedCircle />
+            <div>
+                <Image className="profileImg" src={MarkGalante} roundedCircle />
             </div>
             <div className="text-center profileName">{profile.firstName} {profile.middleName} {profile.surname}</div>
             <div className="divider"></div>
