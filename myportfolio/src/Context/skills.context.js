@@ -31,8 +31,8 @@ const SkillsContext = createContext({
             "techName": "JavaScript"
         },
         {
-            "techImageURL": "https://img.icons8.com/ios-filled/50/000000/jquery.png",
-            "techName": "jQuery"
+            "techImageURL": "https://img.icons8.com/color/48/000000/graphql.png",
+            "techName": "GraphQL"
         },
         {
             "techImageURL": "https://img.icons8.com/color/48/000000/bootstrap.png",
