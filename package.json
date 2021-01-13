@@ -4,6 +4,7 @@
   "description": "> [View full résumé](https://markgalante.github.io/portfolio/)",
   "main": "index.js",
   "dependencies": {
+    "cryptiles": "^4.1.3",
     "request": "^2.79.0"
   },
   "devDependencies": {},
