@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "> [View full résumé](https://markgalante.github.io/portfolio/)",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markgalante/portfolio.git"
+  },
+  "keywords": [
+    "M"
+  ],
+  "author": "Mark Galante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markgalante/portfolio/issues"
+  },
+  "homepage": "https://github.com/markgalante/portfolio#readme"
+}
