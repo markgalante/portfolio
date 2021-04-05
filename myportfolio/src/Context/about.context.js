@@ -1,10 +1,8 @@
 import { createContext } from "react";
 
 const AboutContext = createContext(
-    `While working as a full-time physiotherapist, I have spent the last
-    18 months developing programming skills required for full-stack web
-    development. While I am passionate about healthcare, I am relishing 
-    the challenges in tech and development.`
+    `Enthusiastic, self-taught front-end web developer and qualified physiotherapist with insights and an understanding of both 
+    the public and private healthcare sectors of South Africa.`
 );
 
 export default AboutContext; 

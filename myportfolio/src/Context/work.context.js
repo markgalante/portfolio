@@ -4,6 +4,15 @@ const WorkContext = createContext(
     {
         "workHistory": [
             {
+                "employer": "Freelancing",
+                "started": "2021-01-13", //YYYY-MM-DD
+                "ended": "", //YYYY-MM-DD
+                "position": "React Developer",
+                "myrole":   `Part of a the front-end team developing a progressive web application from the Thera mobile application.`,
+                "highlights": [],
+                "job": 4
+            },
+            {
                 "employer": "Lyle Diedericks Physiotherapists Inc.",
                 "started": "2020-10-01", //YYYY-MM-DD
                 "ended": "", //YYYY-MM-DD
@@ -17,7 +26,7 @@ const WorkContext = createContext(
             {
                 "employer": "Physiopaedic T/A Marq Labuschagne",
                 "started": "2018-01-08", //YYYY-MM-DD
-                "ended": "", //YYYY-MM-DD
+                "ended": "2020-10-01", //YYYY-MM-DD
                 "position": "Physiotherapist",
                 "myrole": `  Taken over by Lyle Diedericks. 
                             I was based in the orthopaedic ward, Robin Trust 
